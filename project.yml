@@ -13,3 +13,17 @@ targets:
       properties:
         UILaunchScreen: {}
         CFBundleDisplayName: BondTrack
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.noel.BondTrack
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "1"
+schemes:
+  BondTrack:
+    build:
+      targets:
+        BondTrack: all
+    run:
+      config: Debug
+    archive:
+      config: Release
