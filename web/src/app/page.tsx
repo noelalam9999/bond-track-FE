@@ -294,7 +294,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-6xl flex-col items-center justify-between gap-4 text-sm text-muted sm:flex-row">
           <p>
             © {new Date().getFullYear()} BondTrack. All rights reserved.{" "}
-            <span className="font-mono text-xs text-accent">build 2</span>
+            <span className="font-mono text-xs text-accent">build 3</span>
           </p>
           <p className="font-mono text-xs">
             BondTrack is a reporting platform and does not provide investment advice or custody assets.
